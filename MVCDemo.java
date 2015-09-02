@@ -9,7 +9,7 @@ public class MVCDemo {
       Student model  = retriveStudentFromDatabase();
 
       StudentView view = new StudentView();
-
+// winner winner gives me a chicken dinner
       StudentController controller = new StudentController(model, view);
 
       controller.updateView();
